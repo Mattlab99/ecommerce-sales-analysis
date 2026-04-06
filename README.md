@@ -33,7 +33,8 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### 1. Sales Performance
 
-![Overview](images/overview.png)
+<img width="1442" height="807" alt="Overview" src="https://github.com/user-attachments/assets/23dfa8a9-7279-4dd7-801c-526c9c97c787" />
+
 
 This page provides a high-level view of business performance over time.
 
@@ -47,7 +48,8 @@ This page provides a high-level view of business performance over time.
 
 ### 2. Category Analysis
 
-![Category](images/category.png)
+
+<img width="1440" height="808" alt="Category Performance" src="https://github.com/user-attachments/assets/e52972ef-bab3-40d2-9c4f-13188d0ec8bd" />
 
 This page explores revenue and order distribution across product categories.
 
@@ -61,7 +63,8 @@ This page explores revenue and order distribution across product categories.
 
 ### 3. Delivery & Seller Performance
 
-![Delivery](images/delivery.png)
+<img width="1442" height="807" alt="Delivery and seller info" src="https://github.com/user-attachments/assets/72454c26-141e-418f-b5a3-9d86b4873c33" />
+
 
 This page evaluates operational efficiency and seller performance.
 
@@ -74,7 +77,8 @@ This page evaluates operational efficiency and seller performance.
 - Overall delivery performance is acceptable, with high on-time rate  
 - Significant variation exists between sellers → some sellers are major bottlenecks  
 - Certain sellers show extremely high delivery times (100+ days), impacting customer experience  
-- Delivery performance varies by customer location, suggesting geographic/logistics inefficiencies  
+- Delivery performance varies by customer location, suggesting geographic/logistics inefficiencies
+- Delivery estimates should be more precise and well estimated
 
 ---
 
