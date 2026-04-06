@@ -1,66 +1,114 @@
-# E-commerce Sales Performance Analysis
+# E-commerce Sales Performance & Operations Analysis
 
-An end-to-end data analytics project analysing e-commerce sales, customer behaviour, product performance, and delivery efficiency using SQL, Python, and Power BI.
+## Overview
+This project presents an end-to-end e-commerce analytics workflow using SQL, Python, and Power BI.
 
-## Project Objective
+The goal is to transform raw transactional data into actionable insights to support business decision-making across revenue performance, customer behaviour, and delivery operations.
 
-The goal of this project is to simulate a real-world business analysis scenario by:
-
-- analysing sales performance and trends
-- identifying key revenue drivers
-- evaluating customer activity
-- assessing delivery performance
-- providing actionable business insights
+---
 
 ## Tools & Technologies
-
-- Python (pandas, matplotlib)
 - SQL (SQLite)
+- Python (Pandas)
 - Power BI
-- Google Colab / Jupyter Notebook
+
+---
 
 ## Dataset
+This project uses the Olist Brazilian E-commerce dataset:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-- Brazilian E-commerce Public Dataset (Olist)
-- approximately 100K orders from 2016 to 2018
+---
 
-## Key Metrics
+## Key Business Metrics
 
-- Total Revenue
-- Total Orders
-- Active Customers
-- Average Order Value (AOV)
-- Monthly Revenue and Orders
-- Delivery Time and Delay
-- Category Performance
+- **Total Revenue:** $15.42M  
+- **Total Orders:** 96K  
+- **Active Customers:** 93K  
+- **Average Order Value (AOV):** $159.85  
 
-## Key Insights
+---
 
-- Revenue growth is driven primarily by increasing order volume
-- Average order value remains relatively stable over time
-- A small number of categories dominate total revenue
-- Delivery performance is generally ahead of schedule
-- Seller performance varies significantly across the platform
+## Dashboard Overview
 
-## Business Recommendations
+### 1. Sales Performance
 
-- Improve delivery estimate accuracy to enhance customer experience
-- Monitor underperforming sellers and optimise logistics processes
-- Diversify product offerings to reduce category concentration
-- Explore strategies to increase repeat customer behaviour
+![Overview](images/overview.png)
+
+This page provides a high-level view of business performance over time.
+
+#### Key Insights:
+- Revenue shows a strong upward trend over time, peaking around late 2017–early 2018  
+- Growth is primarily driven by **increase in order volume**, not AOV  
+- AOV remains relatively stable, indicating consistent customer spending behaviour  
+- Customer base grows steadily alongside revenue, showing healthy acquisition  
+
+---
+
+### 2. Category Analysis
+
+![Category](images/category.png)
+
+This page explores revenue and order distribution across product categories.
+
+#### Key Insights:
+- **Health & Beauty** and **Watches & Gifts** generate the highest revenue (~$1.2M each)  
+- **Bed Bath Table** leads in order volume (~11K orders), showing strong demand  
+- Some categories have **high volume but lower revenue**, indicating lower-priced products  
+- Revenue is concentrated in a small number of categories → potential dependency risk  
+
+---
+
+### 3. Delivery & Seller Performance
+
+![Delivery](images/delivery.png)
+
+This page evaluates operational efficiency and seller performance.
+
+#### Key Metrics:
+- **Average Delivery Time:** 12.5 days  
+- **On-Time Delivery Rate:** 92%  
+- **Maximum Delivery Time:** 210 days  
+
+#### Key Insights:
+- Overall delivery performance is acceptable, with high on-time rate  
+- Significant variation exists between sellers → some sellers are major bottlenecks  
+- Certain sellers show extremely high delivery times (100+ days), impacting customer experience  
+- Delivery performance varies by customer location, suggesting geographic/logistics inefficiencies  
+
+---
 
 ## Project Structure
 
-- `notebooks/` → Python analysis notebook
-- `sql/` → SQL queries for KPIs and analysis
-- `powerbi/` → Power BI dashboard file
-- `reports/` → Business analysis report
-- `images/` → dashboard screenshots
+- SQL queries → /sql  
+- Python analysis → /python  
+- Power BI dashboard → /powerbi  
+- Dashboard images → /images  
+- Dataset information → /data  
+
+---
 
 ## Key Skills Demonstrated
 
-- data cleaning and transformation
-- SQL querying and relational analysis
-- KPI design and business metrics
-- data visualisation
-- business storytelling
+- Data extraction and transformation using SQL  
+- Data cleaning and analysis using Python (Pandas)  
+- KPI design and business metric development  
+- Data visualisation and dashboard design in Power BI  
+- Analytical thinking and insight generation  
+
+---
+
+## Business Value
+
+This project demonstrates how raw transactional data can be transformed into meaningful business insights, helping stakeholders:
+
+- Understand revenue drivers  
+- Identify high-performing product categories  
+- Detect operational inefficiencies  
+- Improve delivery performance and customer experience  
+
+---
+
+## Author
+
+Matthew Tavakoli
